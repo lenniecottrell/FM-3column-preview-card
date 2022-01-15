@@ -1,17 +1,16 @@
 import React from 'react'
 import Category from './Category'
-import luxury from '../images/icon-luxury.svg'
-import sedan from '../images/icon-sedans.svg'
-import suv from '../images/icon-suvs.svg'
+// import luxury from '../images/icon-luxury.svg'
+// import sedan from '../images/icon-sedans.svg'
+// import suv from '../images/icon-suvs.svg'
 
 const Card = () => {
   return (
     <main className="card">
-      <Category icon={sedan} title="Sedans"/>
-      <Category icon={suv} title="SUVs"/>
-      <Category icon={luxury} title="Luxury"/>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, temporibus!</p>
+      <Category title="Sedans"/>
     </main>
   )
 }
 
-export default Card
+export default Card;
