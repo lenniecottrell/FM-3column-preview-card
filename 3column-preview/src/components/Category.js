@@ -1,12 +1,21 @@
 import React from 'react'
+import categories from './data'
 
-const Category = ({icon, title}) => {
+const Category = () => {
+  categories.map((item) => {return console.log(item.icon)})
+
+
+  const formattedCategories = categories.map((item) => 
+    <div key={item.id} className='category'>
+      <img src={item.icon} alt="" />
+      <h2>{item.title}</h2>
+      <p>{item.text}</p>
+      <button>Learn More</button>
+    </div>
+  )
   return (
     <div>
-      {/* <img src={icon} alt="" aria-hidden="true"/> */}
-      <h2 className="sectionTitle">{title}</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ipsam cum cupiditate?</p>
-      <button type="button">Learn More</button>
+      {formattedCategories}
     </div>
   )
 }

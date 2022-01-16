@@ -19,3 +19,38 @@ CSS Font family syntax
   font-family: 'Lexend Deca', sans-serif;
 */
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img, i {
+  display: block;
+}
+
+button {
+  font: inherit;
+}
+
+//End CSS Reset
+
+body {
+  background-color: $veryLightGray;
+}
+.card {
+  border: 2px solid red;
+}
+
+.category{
+  border: 2px solid green;
+}
