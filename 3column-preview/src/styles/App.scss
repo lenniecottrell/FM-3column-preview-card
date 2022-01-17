@@ -98,3 +98,31 @@ body {
   }
 }
 
+@media only screen and (min-width: 375px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  .card{
+    margin: 0rem 20rem;
+    width: 60rem;
+  }
+  .categories {
+    display: flex;
+    flex-direction: row;
+  }
+  .category {
+    height: auto;
+    width: 307px;
+    button{
+      margin-top: 5rem;
+      padding: .6rem 1.5rem;
+      font-weight: 400;
+    }
+    p {
+      // padding-right: 1.8rem;
+      line-height: 1.6;
+  }
+}
+}
