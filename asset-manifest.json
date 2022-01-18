@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FM-3column-preview-card/static/css/main.45c8879d.css",
+    "main.js": "/FM-3column-preview-card/static/js/main.92ae5351.js",
+    "static/media/icon-luxury.svg": "/FM-3column-preview-card/static/media/icon-luxury.7d6e1aefdc39c4742fbb039e7f97a503.svg",
+    "static/media/icon-suvs.svg": "/FM-3column-preview-card/static/media/icon-suvs.058b664c311101933ebda84111ddd9b6.svg",
+    "static/media/icon-sedans.svg": "/FM-3column-preview-card/static/media/icon-sedans.e794502801c486bcffc3513f6f03141e.svg",
+    "index.html": "/FM-3column-preview-card/index.html",
+    "main.45c8879d.css.map": "/FM-3column-preview-card/static/css/main.45c8879d.css.map",
+    "main.92ae5351.js.map": "/FM-3column-preview-card/static/js/main.92ae5351.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45c8879d.css",
+    "static/js/main.92ae5351.js"
+  ]
+}
